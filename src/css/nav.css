@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+.navbar-nav{
+    margin-left: auto!important;
+    
+}
+.nav-item{
+    margin-right:  3rem;
+}
+.navbar{
+  
+    background-color: rgb(139, 182, 205);
+    padding: 0;
+}
+.nav-item a{
+ font-family: Poppins ; 
+ color:white
+
+
+}
+
+nav ul li{
+    text-transform: uppercase;
+}
+
+
+.navbar-nav > li a.active, .navbar-nav > li > a:focus{
+    border-bottom: 0.1860rem solid;
+}
+
+

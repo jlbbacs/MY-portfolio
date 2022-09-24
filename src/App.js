@@ -1,11 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Nav from "./components/nav";
+
 const App = () => {
     return ( 
-      <div>
-        
-        <h1> Hello Test </h1> 
-        </div>
+      <Nav/>
     );
 };
 export default App;
