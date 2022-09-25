@@ -6,17 +6,19 @@
     
 }
 .nav-item{
-    margin-right:  3rem;
+    margin-right:  2rem;
 }
 .navbar{
   
-    background:linear-gradient(rgba(203, 225, 238, 0.5),transparent);
-    background-color:rgb(89, 196, 243)!important ;
+    background:linear-gradient(rgba(221, 236, 246, 0.5),transparent);
+    background-color:rgb(7, 171, 241)!important ;
     padding: 0;
 }
 .nav-item a{
 font-family: 'Poppins', sans-serif; 
- color:white
+color:rgb(255, 255, 255);
+
+ 
 
 }
 
@@ -36,18 +38,59 @@ font-family: 'Poppins', sans-serif;
 /* ==============Media Query================ */
 
 @media(max-width:480px){
-.navbar-toggler-icon{
-    width: 1rem;
-    height: 1rem;
-    outline: none!important;
-    box-shadow: none;
+    .navbar-toggler {
+        border:0px;
+        }
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler-icon:focus{
+           
+            outline: none!important;
+            box-shadow: none;
+            outline: none;
+            box-shadow: none;
+            border: none;
+        }
     
-}
 
 .navbar li a{
     font-size: smaller;
 }
 
+.navbar-toggler-icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+}
+
+
+@media (max-width:989px) {
+   .my-logo{
+    margin-left: -1rem;
+        }
+
+     .navbar-toggler {
+    border:0px;
+        } 
+
+.navbar-toggler-icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+           
+ outline: none!important;
+ box-shadow: none;
+ outline: none;
+ box-shadow: none;
+ border: none;
+
+
+}
 
 
 }
