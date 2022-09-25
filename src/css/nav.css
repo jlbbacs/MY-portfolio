@@ -31,4 +31,22 @@ nav ul li{
     border-bottom: 0.1860rem solid;
 }
 
+.navbar-toggler-icon{
+    border: none;
+    outline: none!important;
+}
 
+@media(max-width:480px){
+.navbar-toggler-icon{
+    width: 1rem;
+    height: 1rem;
+    outline: none!important;
+    box-shadow: none;
+    
+}
+
+.navbar li a{
+    font-size: smaller;
+ 
+}
+}

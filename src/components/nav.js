@@ -9,7 +9,7 @@ const nav = () => {
       <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
 <div className="container">
     <a className="navbar-brand" href="#"><img className='my-logo' src={mylogo} alt="logo ..." fluid /></a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
