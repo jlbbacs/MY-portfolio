@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-
-
-
-
-
 .navbar-nav{
     margin-left: auto!important;
     
@@ -23,9 +18,7 @@
 font-family: 'Poppins', sans-serif; 
  color:white
 
-
 }
-
 
 .navbar-nav > li a.active, .navbar-nav > li > a:focus{
     border-bottom: 0.1860rem solid;
@@ -35,6 +28,7 @@ font-family: 'Poppins', sans-serif;
     border: none;
     outline: none!important;
 }
+
 
 
 
