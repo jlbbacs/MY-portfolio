@@ -3,6 +3,9 @@
 
 
 
+
+
+
 .navbar-nav{
     margin-left: auto!important;
     
@@ -12,18 +15,15 @@
 }
 .navbar{
   
-    background-color: rgb(139, 182, 205);
+    background:linear-gradient(rgba(203, 225, 238, 0.5),transparent);
+    background-color:rgb(89, 196, 243)!important ;
     padding: 0;
 }
 .nav-item a{
- font-family: Poppins ; 
+font-family: 'Poppins', sans-serif; 
  color:white
 
 
-}
-
-nav ul li{
-    text-transform: uppercase;
 }
 
 
@@ -36,6 +36,11 @@ nav ul li{
     outline: none!important;
 }
 
+
+
+
+/* ==============Media Query================ */
+
 @media(max-width:480px){
 .navbar-toggler-icon{
     width: 1rem;
@@ -47,6 +52,8 @@ nav ul li{
 
 .navbar li a{
     font-size: smaller;
- 
 }
+
+
+
 }
