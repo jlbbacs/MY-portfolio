@@ -1,9 +1,12 @@
 import React from 'react';
 import "../css/home.css";
-
+import Typewriter from 'typewriter-effect/dist/core';
 
 const home = () => {
   return (
+
+  
+    
     <div>
      
         <div className='container '>
