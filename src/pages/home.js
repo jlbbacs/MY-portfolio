@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/home.css";
-import Typewriter from 'typewriter-effect/dist/core';
+import imageprofile from "../images/imageprofile.jpg";
 
 const home = () => {
   return (
@@ -12,7 +12,7 @@ const home = () => {
         <div className='container '>
           <div className='row text-center hero-section'>
             <div className='col-sm hero-text'>Hi i am a Front end Developer</div>
-            <div className='col-sm'><h2>Image Here!</h2></div>
+            <div className='col-sm'><img className='image-profile' src={imageprofile}></img></div>
           </div>
         </div>
     
@@ -25,7 +25,7 @@ const home = () => {
     <img src="..." class="card-img-top" alt="..."></img>
     <div class="card-body">
       <h5 class="card-title">Web Design</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
@@ -33,7 +33,7 @@ const home = () => {
     <img src="..." class="card-img-top" alt="..."></img>
     <div class="card-body">
       <h5 class="card-title">Photo Editing</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
@@ -41,7 +41,7 @@ const home = () => {
     <img src="..." class="card-img-top" alt="..."></img>
     <div class="card-body">
       <h5 class="card-title">Web Application</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
