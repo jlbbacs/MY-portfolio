@@ -1,10 +1,15 @@
 import React from 'react'
 import mylogo from "../images/logo.svg";
 import "../css/nav.css";
+import { Link } from 'react-router-dom';
+
+
+
 
 
 const nav = () => {
   return (
+  
     <div>
       <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
 <div className="container" id='nav-container'>
@@ -15,16 +20,16 @@ const nav = () => {
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="#">Home</a>
+          <Link className="nav-link " aria-current="page" to="/home">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Abouts</a>
+          <Link className="nav-link" to="/about">Abouts</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <Link className="nav-link" to="/contact">Contact</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Works</a>
+          <Link className="nav-link" to="/works">Works</Link>
         </li>
       </ul>
     </div>
