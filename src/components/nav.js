@@ -9,14 +9,14 @@ const nav = () => {
    <div>
       <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
     <div className="container" id='nav-container'>
-    <a className="navbar-brand" href="#">  <Link to="/home"><img className='my-logo' src={mylogo} alt="logo ..." fluid /></Link></a> 
+    <a className="navbar-brand" href="#">  <Link to="/"><img className='my-logo' src={mylogo} alt="logo ..." fluid /></Link></a> 
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link " to="/home">Home</Link>
+          <Link className="nav-link " to="/">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/about">Abouts</Link>
