@@ -19,21 +19,11 @@
 font-family: 'Poppins', sans-serif; 
 color:rgb(255, 255, 255);
 
- 
-
 }
 
 .navbar-nav > li a.active, .navbar-nav > li > a:focus{
     border-bottom: 0.001rem solid;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -57,6 +47,12 @@ color:rgb(255, 255, 255);
         }
     
    
+ .navbar-nav > li a.active, .navbar-nav > li > a:focus{
+            border-bottom: none;
+        
+ }
+
+
 
 .navbar li a{
     font-size: smaller;
