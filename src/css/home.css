@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-* {
-  font-family: "Poppins", sans-serif;
-  line-height: 24px;
-  color: #000000;
-  font-weight:bold;
+*{
+    font-family: 'roboto', sans-serif;
+}
+
+.hero-text{
+
+    font-weight:bolder!important;
+    font-size: 2.5rem;
+    
+}
+.hero-section{
+    margin-top: 5rem;
 }
