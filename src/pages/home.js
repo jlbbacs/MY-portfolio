@@ -4,7 +4,7 @@ import "../css/home.css";
 const home = () => {
   return (
     <div>
-      <h1 className='text-center mt-5'>Home</h1>
+     
         <div className='container'>
           <div className='row text-center border'>
             <div className='col-sm'><h2>Hi i am a Front-end Developer</h2></div>
