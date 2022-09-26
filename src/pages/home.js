@@ -6,7 +6,7 @@ const home = () => {
     <div>
      
         <div className='container'>
-          <div className='row text-center border'>
+          <div className='row text-center border mt-5'>
             <div className='col-sm'><h2>Hi i am a Front-end Developer</h2></div>
             <div className='col-sm'><h2>test</h2></div>
           </div>
