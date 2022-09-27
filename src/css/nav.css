@@ -29,7 +29,10 @@ letter-spacing: 1.3px;
 }
 
 .navbar-nav > li a.active, .navbar-nav > li > a:focus{
-    border-bottom: 0.001rem solid;
+    border-bottom: 0.01rem solid;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius:  50%;
+    
 }
 
 
