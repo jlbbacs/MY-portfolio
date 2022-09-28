@@ -11,13 +11,15 @@ body{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
     color:rgb(52, 88, 104) ; 
+  
+   
 }
 #hero{
-margin-top: 4rem;
+margin-top: 6rem;
     
 }
 .hero-section{
-    margin-top: 6rem;
+    margin-top: 6rem!important;
 }
 .image-profile{
     width: 300px;
@@ -46,7 +48,7 @@ font-weight: 600;
 @media(max-width:480px){
 
 .hero-text{
-    margin-top: -2.5rem;
+    margin-top: -3rem!important;
     
   
 }
