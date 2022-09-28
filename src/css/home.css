@@ -11,8 +11,9 @@ body{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
     color:rgb(52, 88, 104) ; 
- 
-
+}
+#hero{
+margin-top: 4rem;
     
 }
 .hero-section{
@@ -49,6 +50,9 @@ font-weight: 600;
     
   
 }
-
+#hero{
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+}
 
 }
