@@ -4,5 +4,9 @@
 
 .card{
   margin:1rem;
+  
 
+}
+.card-group{
+    margin-bottom: 2rem;
 }

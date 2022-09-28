@@ -13,8 +13,8 @@ const works = () => {
 
     <div className='container'>
       <div className="row">
-      <div class="card-group">
-  <div class="card">
+      <div class="card-group  ">
+  <div class="card  shadow">
     <img class="card-img-top" src={Kodekid} alt="Card image cap"></img>
     <div class="card-body">
       <h5 class="card-title text-center">KODE KID</h5>
@@ -24,7 +24,7 @@ const works = () => {
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
-  <div class="card">
+  <div class="card shadow">
     <img class="card-img-top" src={Nolimit} alt="Card image cap"></img>
     <div class="card-body">
       <h5 class="card-title text-center">NO LIMIT</h5>
@@ -34,7 +34,7 @@ const works = () => {
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
-  <div class="card">
+  <div class="card shadow">
     <img class="card-img-top" src={Charmingpets} alt="Card image cap"></img>
     <div class="card-body">
       <h5 class="card-title text-center">CHARMING PETS</h5>
