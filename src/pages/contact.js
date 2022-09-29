@@ -27,7 +27,7 @@ export const contact = () => {
       <input type="text"  name="user_name" class="form-control" id="inputName" placeholder="Name"></input>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email Address</label>
+      <label for="input">Email Address</label>
       <input type="text" name="user_email" class="form-control" id="inputEmail4" placeholder="Email"></input>
     </div>
   </div>
