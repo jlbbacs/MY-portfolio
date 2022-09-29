@@ -22,7 +22,7 @@ const home = () => {
             <h4 className='developer' data-aos="fade-up">  
             <Typewriter
             options={{
-            strings: ['A Front-end Developer', 'A Web Designer', 'a rockstar'],
+            strings: ['A Front-end Developer', 'A Web Designer'],
             autoStart: true,
              loop: true,
               }}
