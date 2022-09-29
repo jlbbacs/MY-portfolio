@@ -5,3 +5,12 @@
     text-align: center;  
 }
 
+.form-group{
+    padding-top: 0.2rem;
+}
+
+#textarea{
+    min-height: 30vh;
+    border:none;
+    margin-top: 0.2rem;
+}
