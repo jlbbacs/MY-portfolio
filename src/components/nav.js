@@ -7,7 +7,7 @@ const nav = () => {
   
    
    <div>
-      <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
+      <nav className="navbar navbar-expand-lg navbar-light shadow-lg">
     <div className="container" id='nav-container'>
     <a className="navbar-brand" href="#">  <Link to="/"><img className='my-logo' src={mylogo} alt="logo ..." fluid /></Link></a> 
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,9 +18,9 @@ const nav = () => {
         <li className="nav-item">
           <Link className="nav-link " to="/">Home</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link className="nav-link" to="/about">Abouts</Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link className="nav-link" to="/contact">Contact</Link>
         </li>

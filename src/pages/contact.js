@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import "../css/contact.css";
 
 const contact = () => {
   return (
     <div>
-       <h1 className='text-center mt-5'>Contact</h1>
+       <h1 className='text-center mt-5 Contact'>Contact</h1>
     </div>
+
+
+
   )
 }
 

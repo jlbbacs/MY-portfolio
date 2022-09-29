@@ -19,7 +19,6 @@ const home = () => {
         <div className='container '>
           <div className='row text-center hero-section'>
             <div className="col-sm hero-text" id='hero'><h4 className='hello' data-aos="fade-right">Hello my name is </h4><span><h1 className='myname' data-aos="fade-left"> JOSEPH LESTER BACSARSA</h1> </span>
-            
             <h4 className='developer' data-aos="fade-up">  
             <Typewriter
             options={{
