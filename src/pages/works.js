@@ -41,9 +41,7 @@ const works = () => {
       </div>
 
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
+    
   </div>
   <div class="card shadow" >
     <img class="card-img-top" src={Nolimit} alt="Card image cap"></img>
@@ -66,9 +64,7 @@ const works = () => {
       </div>
       
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
+   
   </div>
   <div class="card shadow" >
     <img class="card-img-top" src={Charmingpets} alt="Card image cap"></img>
@@ -89,9 +85,7 @@ const works = () => {
       <button type="button" class="btn btn-outline-primary ">Demo</button>
       </div>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
+    
   </div>
 </div>
       </div>
