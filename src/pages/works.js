@@ -28,7 +28,7 @@ const works = () => {
     <img class="card-img-top" src={Kodekid} alt="Card image cap"></img>
     <div class="card-body">
       <h5 class="card-title">KODE KID</h5>
-      <p class="card-text ">Ultimate guid for kids who want to learn basic HTML and CSS.</p>
+      <p class="card-text ">Ultimate guide for kids who want to learn basic HTML and CSS.</p>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -47,7 +47,7 @@ const works = () => {
     <img class="card-img-top" src={Nolimit} alt="Card image cap"></img>
     <div class="card-body">
       <h5 class="card-title ">NO LIMIT</h5>
-      <p class="card-text ">Fitness website and guide </p>
+      <p class="card-text ">Fitness website and guide for healty enthusiast</p>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -57,7 +57,7 @@ const works = () => {
       </ul>
       <div className='Works-button '>
         <br></br>
-        <br></br>
+        
        
       <button type="button" class="btn btn-outline-primary">Repo</button>
       <button type="button" class="btn btn-outline-primary ">Demo</button>

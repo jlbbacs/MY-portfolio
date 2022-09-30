@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "../css/contact.css"
 import React from 'react';
+import swal from 'sweetalert';
 
 export const contact = () => {
   const form = useRef();
@@ -18,6 +19,7 @@ export const contact = () => {
           kevin.current.value = ""
           nicca.current.value = ""
           console.log(result.text);
+          swal("Success", "Youre message has been sent!", "success");
       }, (error) => {
           console.log(error.text);
       });
