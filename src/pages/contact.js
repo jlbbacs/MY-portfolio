@@ -35,7 +35,7 @@ export const contact = () => {
   return (
 
 <div className='container'>
-      <h1 className='contact-me mt-5'>Contact Me</h1>
+      <h1 className='contact-me mt-4'>Contact Me</h1>
       <form ref={form} onSubmit={sendEmail}>
   <div class="form-row">
     <div class="form-group col-md-6">

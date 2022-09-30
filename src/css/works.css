@@ -10,7 +10,10 @@ ul li a ,h5 button{
  
   font-family: 'Montserrat', sans-serif;
 }
-
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 .card-group {
   margin-top: 3rem;
@@ -20,8 +23,11 @@ ul li a ,h5 button{
 .proj{
   text-align: center;
 
+
+
   font-family: 'Bebas Neue', cursive;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .btn-outline-primary{
@@ -30,6 +36,6 @@ width: 5rem;
 
 }
 .card{
-  background-color: rgb(216, 220, 224);
+  background-color: rgb(197, 202, 207);
 }
 
