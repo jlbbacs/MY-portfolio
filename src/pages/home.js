@@ -5,8 +5,13 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Typewriter from 'typewriter-effect';
 import  Carousel  from '../components/carousel';
+import { Tabtitle } from '../components/GeneralFunctions';
 
 const home = () => {
+  Tabtitle('Home | JLB');
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     AOS.init({duration: 1000 });

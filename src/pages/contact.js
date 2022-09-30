@@ -3,8 +3,15 @@ import emailjs from '@emailjs/browser';
 import "../css/contact.css"
 import React from 'react';
 import swal from 'sweetalert';
+import { useEffect} from "react";
+import { Tabtitle } from '../components/GeneralFunctions';
 
 export const contact = () => {
+  Tabtitle('Contact | JLB');
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const form = useRef();
   const paulene = useRef();
   const nicca = useRef();

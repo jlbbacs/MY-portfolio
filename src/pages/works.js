@@ -5,13 +5,18 @@ import Charmingpets from "../images/charmingpets1.png"
 import "../css/works.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import { useEffect} from "react";
+import { Tabtitle } from '../components/GeneralFunctions';
 
 
 
 
 
 const works = () => {
+  Tabtitle('Projects | JLB');
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     AOS.init({duration: 1000 });
