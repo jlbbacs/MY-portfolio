@@ -48,7 +48,7 @@ const works = () => {
           <MDBCardBody>
             <MDBCardTitle>KODE KID</MDBCardTitle>
             <MDBCardText>
-            Ultimate guide for kids who want to learn basic HTML and CSS.
+           <small> Ultimate guide for kids who want to learn basic HTML and CSS.</small>
             
             </MDBCardText>
           </MDBCardBody>
@@ -68,7 +68,7 @@ const works = () => {
           <MDBCardBody>
             <MDBCardTitle>NO LIMIT</MDBCardTitle>
             <MDBCardText>
-            Fitness website and guide for healty enthusiast
+           <small > Fitness website and guide for healty enthusiast</small>
             </MDBCardText>
           </MDBCardBody>
           <MDBCardFooter>
@@ -87,7 +87,7 @@ const works = () => {
           <MDBCardBody>
             <MDBCardTitle>CHARMING PETS</MDBCardTitle>
             <MDBCardText>
-            Charming Pets is a pet training class and adoption website
+            <small >Charming Pets is a pet training class and adoption website</small> 
             </MDBCardText>
           </MDBCardBody>
           <MDBCardFooter>
