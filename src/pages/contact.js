@@ -33,11 +33,11 @@ export const contact = () => {
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="input" >Name</label>
-      <input type="text"  name="user_name" ref={paulene} class="form-control" id="inputName" placeholder="Name" />
+      <input type="text"  name="user_name" ref={paulene} class="form-control" id="inputName"/>
     </div>
     <div class="form-group col-md-6">
       <label for="input">Email Address</label>
-      <input type="email" name="user_email" ref={nicca} class="form-control" id="inputEmail4" placeholder="Email" />
+      <input type="email" name="user_email" ref={nicca} class="form-control" id="inputEmail4"/>
     </div>
   </div>
   <div class="form-group col-md-6">
