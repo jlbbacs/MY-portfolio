@@ -17,11 +17,12 @@ ul li a ,h5 button{
 
 .card-group {
   margin-top: 3rem;
-  gap: 1rem;
+
 }
 
 .proj{
   text-align: center;
+  color:#345868;
 
 
 
@@ -36,6 +37,11 @@ width: 5rem;
 
 }
 .card{
-  background-color: rgb(197, 202, 207);
+
+  background-color:#d6dcde;
 }
+.charmlist{
+ 
+}
+
 
